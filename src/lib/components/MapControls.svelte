@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import * as saveSvgAsPng from 'save-svg-as-png';
 
 	export let projection
@@ -51,20 +52,20 @@ This component is the UI for the map controls (zooming, displaying the ScenarioT
 <div class="controls">
 	<div class="zoom-controls">
 		<button class="zoom in" on:click={() => zoom(1.5)}
-			><img src="/icons/zoomin.svg" width="20px" height="20px" /></button
+			><img src={`${base}/icons/zoomin.svg`} width="20px" height="20px" /></button
 		>
 		<button class="zoom out" on:click={() => zoom(0.666667)}
-			><img src="/icons/zoomout.svg" width="20px" height="20px" /></button
+			><img src={`${base}/icons/zoomout.svg`} width="20px" height="20px" /></button
 		>
 	</div>
 	<div class="home-button">
 		<button class="home" on:click={() => resetZoom()} disabled={notZoomedYet}
-			><img src="/icons/home.svg" width="20px" height="20px" /></button
+			><img src={`${base}/icons/home.svg`} width="20px" height="20px" /></button
 		>
 	</div>
 	<div class="download-button">
 		<button class="download" on:click={downloadChart}
-			><img src="/icons/download.svg" width="20px" height="20px" /></button
+			><img src={`${base}/icons/download.svg`} width="20px" height="20px" /></button
 		>
 	</div>
 </div>
