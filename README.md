@@ -129,7 +129,6 @@ The `MapControls` component has buttons for:
 - zooming out of the map (minus sign)
 - resetting the zoom and pan, so that the full map fits the screen again (home icon). This button is disabled when the map isn't zoomed or panned yet.
 - downloading a screenshot of the map in it's current state as a PNG image file (download icon)
-- displaying the table with the user defined changes in municipal cooperations (only for the internal map, hamburger icon)
 
 Panning the map is done by click-dragging (click and hold, then move).
 
