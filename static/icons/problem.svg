@@ -1,0 +1,10 @@
+<svg width="128" height="128" viewBox="0 0 128 128">
+  <g>
+    <rect width="128" height="128" fill="#fff"/>
+    <g transform="translate(11 11)" stroke="#000" stroke-width="1">
+      <circle cx="53.5" cy="53.5" r="53.5">
+    </g>
+    <line y2="47" transform="translate(65 31)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="16"/>
+    <circle cx="8" cy="8" r="8" transform="translate(57 93)" fill="#fff"/>
+  </g>
+</svg>
