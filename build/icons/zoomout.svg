@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="clip-Zoomout">
+      <rect width="128" height="128"/>
+    </clipPath>
+  </defs>
+  <g id="Zoomout" clip-path="url(#clip-Zoomout)">
+    <rect width="128" height="128" fill="#fff"/>
+    <line id="Line_6" data-name="Line 6" x2="80" transform="translate(24 64)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="16"/>
+  </g>
+</svg>
