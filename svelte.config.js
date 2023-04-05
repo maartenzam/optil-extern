@@ -7,7 +7,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		// Set the path where the app will live here (starting but not ending with a '/')
-		paths: {base: ''}
+		paths: {base: '/embed-kaart'}
 	}
 };
 
